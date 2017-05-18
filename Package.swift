@@ -10,7 +10,7 @@ let package = Package(
       ]),
   ],
   dependencies: [
-    .Package(url: "https://github.com/jpsim/SourceKitten.git", majorVersion: 0, minor: 17),
+    .Package(url: "https://github.com/jpsim/SourceKitten.git", versions: Version(0,17,0)..<Version(0,17,3)),
     .Package(url: "https://github.com/jpsim/Yams.git", majorVersion: 0, minor: 3),
     .Package(url: "https://github.com/scottrhoyt/SwiftyTextTable.git", majorVersion: 0, minor: 5),
   ]
